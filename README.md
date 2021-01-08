@@ -1,1 +1,2 @@
-# Tutoriales_INFO229_JorgeUlloaC
+# Tutoriales INFO229
+> ### Autor: Jorge Ulloa Castillo
