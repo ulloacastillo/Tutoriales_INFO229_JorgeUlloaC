@@ -94,7 +94,7 @@ function App() {
 } 
 export default App;
 ```
-<img src="https://github.com/ulloacastillo/Tutoriales_INFO229_JorgeUlloaC/blob/main/Tutorial_8_REDUX/images/1.png" width="100">
+<img src="https://github.com/ulloacastillo/Tutoriales_INFO229_JorgeUlloaC/blob/main/Tutorial_8_REDUX/images/1.png" width="300">
 
 
 
@@ -166,7 +166,7 @@ Si queremos ver si el state cambio, podemos agregar las siguientes lineas:
 > ### Aplicamos el método `dispatch` dado que es el único método que tenemos para actualizar el state.
 
 El resultado es
-<img src="https://github.com/ulloacastillo/Tutoriales_INFO229_JorgeUlloaC/blob/main/Tutorial_8_REDUX/images/2.png" width="100">
+<img src="https://github.com/ulloacastillo/Tutoriales_INFO229_JorgeUlloaC/blob/main/Tutorial_8_REDUX/images/2.png" width="300">
 
 
  Ahora que tenemos ya nuestras `Actions` y nuestro `reducer` aprovecharemos de añadir un nuevo state que ocuparemos para determinar si el usuario de la aplicación se encuentra 'loggeado' o no, le llamaremos logged.
@@ -335,9 +335,9 @@ export  default App;
 
  
 EL RESULTADO ES:
-<img src="https://github.com/ulloacastillo/Tutoriales_INFO229_JorgeUlloaC/blob/main/Tutorial_8_REDUX/images/3.png" width="100">
-<img src="https://github.com/ulloacastillo/Tutoriales_INFO229_JorgeUlloaC/blob/main/Tutorial_8_REDUX/images/4.png" width="100">
-<img src="https://github.com/ulloacastillo/Tutoriales_INFO229_JorgeUlloaC/blob/main/Tutorial_8_REDUX/images/5.png" width="100">
+<img src="https://github.com/ulloacastillo/Tutoriales_INFO229_JorgeUlloaC/blob/main/Tutorial_8_REDUX/images/3.png" width="300">
+<img src="https://github.com/ulloacastillo/Tutoriales_INFO229_JorgeUlloaC/blob/main/Tutorial_8_REDUX/images/4.png" width="300">
+<img src="https://github.com/ulloacastillo/Tutoriales_INFO229_JorgeUlloaC/blob/main/Tutorial_8_REDUX/images/5.png" width="300">
 ### Referencias
 
 [^1]: https://redux.js.org/tutorials/essentials/part-1-overview-concepts#when-should-i-use-redux
