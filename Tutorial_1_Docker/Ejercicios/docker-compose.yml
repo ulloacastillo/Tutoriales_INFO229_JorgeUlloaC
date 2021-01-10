@@ -1,0 +1,27 @@
+version: '3.6'  
+services:  
+  bot:
+    networks: 
+      - network
+    build: 
+      context: ./bot
+    ports: 
+      - 3000:3000
+    container_name: bot_slackconnector
+    environment:
+      - MONGO_HOST=database
+    depends_on:
+      - database
+  database:
+    networks: 
+      - network
+    image: mongo
+    container_name: bot_mongo
+    environment:
+      - MONGO_INITDB_DATABASE=bot
+    volumes:
+      - ./mongodata:/data/db
+    ports:
+      - '27017:27017'
+networks:
+  network: {}
